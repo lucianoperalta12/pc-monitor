@@ -1,0 +1,6 @@
+@PcMonitorServer_HostAddress = http://localhost:5236
+
+GET {{PcMonitorServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# Publish output
+**/publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Node / Frontend
+PcMonitorFrontend/node_modules/
+PcMonitorFrontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local overrides
+appsettings.Development.json
+appsettings.Local.json
